@@ -3,4 +3,4 @@
 .eggs/
 *.egg-info/
 docs/_build
-.virtualenv
+.venv
