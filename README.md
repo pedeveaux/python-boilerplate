@@ -19,7 +19,7 @@ The project is ready to run as is. You will need Python 2.7 or later.
 After cloning or downloading the repo, create a Python virtual environment with:
 
 ```
-python -m venv .virtualenv
+python -m venv venv
 ```
 
 if the `pyvenv` command does not exist on your system.
@@ -29,13 +29,13 @@ if the `pyvenv` command does not exist on your system.
 Now activate the virtual environment. on macOS, Linux and Unix systems, use:
 
 ```
-source .virtualenv/bin/activate
+source venv/bin/activate
 ```
 
 On Windows:
 
 ```
-.virtualenv\Scripts\activate.bat
+venv\Scripts\activate.bat
 ```
 
 ### Install the Development Environment
